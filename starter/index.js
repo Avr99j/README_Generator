@@ -12,10 +12,44 @@ const questions = [
     },
     {
         type: "input",
-        name: 'sections',
-        message: "What sections do you want in your README file?",
-        choices: ['Description', 'Table of Contents', 'Installation', 'Usage', 'License', 'ontributing', 'Tests', 'Questions']
-    }
+        name: 'description',
+        message: "What is the Description of your project?",
+    },
+    {
+        type: "input",
+        name: 'contents',
+        message: "Please mention a 'Table of Contents' for your project",
+    },
+    {
+        type: "input",
+        name: 'installation',
+        message: "Please mention installation steps for your project",
+    },
+    {
+        type: "input",
+        name: 'usage',
+        message: "Please mention usage guidelines for your project",
+    },
+    {
+        type: "input",
+        name: 'license',
+        message: "What type of license did you use?",
+    },
+    {
+        type: "input",
+        name: 'contributions',
+        message: "How can someone contribute to your project?",
+    },
+    {
+        type: "input",
+        name: 'tests',
+        message: "What type of testing was conducted?",
+    },
+    {
+        type: "input",
+        name: 'questions',
+        message: "Please contact below if you have any questions for the project",
+    },
 
 ];
 
