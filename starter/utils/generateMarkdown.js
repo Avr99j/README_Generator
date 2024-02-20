@@ -19,7 +19,8 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ${data.license}
+  This project is licensed under the ${data.license} license.
+
 
   ## Contributing
   ${data.contributing}
@@ -28,7 +29,9 @@ function generateMarkdown(data) {
   ${data.tests}
   
   ## Questions
-  ${data.questions}`;
+  If you have any questions, please reach me at: \n
+  GitHub : [${data.github}](https://github.com/${data.github}) \n
+  Email: [${data.email}](mailto: ${data.email})`;
 }
 
 module.exports = generateMarkdown;

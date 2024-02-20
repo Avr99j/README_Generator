@@ -41,10 +41,20 @@ const questions = [
         name: 'tests',
         message: "What type of testing was conducted?",
     },
+    // {
+    //     type: "input",
+    //     name: 'questions',
+    //     message: "Please contact below if you have any questions for the project",
+    // },
     {
         type: "input",
-        name: 'questions',
-        message: "Please contact below if you have any questions for the project",
+        name: 'github',
+        message: "Please enter your GitHub handle",
+    },
+    {
+        type: "input",
+        name: 'email',
+        message: "Please enter your email address",
     },
 
 ];
