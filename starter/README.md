@@ -1,8 +1,8 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)] 
+ 
+# README.md
   ## Description
-  ${data.description}
+  
 
   ## Table of Contents
   - [Installation](#installation)
@@ -13,22 +13,19 @@ function generateMarkdown(data) {
   - [Questions](#questions)
  
   ## Installation 
-  ${data.installation}
+  
 
   ## Usage
-  ${data.usage}
+  
 
   ## License
-  ${data.license}
+  Apache
 
   ## Contributing
-  ${data.contributing}
+  
 
   ## Tests
-  ${data.tests}
+  
   
   ## Questions
-  ${data.questions}`;
-}
-
-module.exports = generateMarkdown;
+  
