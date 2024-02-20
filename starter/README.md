@@ -2,7 +2,7 @@
  
 # README.md
   ## Description
-  
+  Description
 
   ## Table of Contents
   - [Installation](#installation)
@@ -19,7 +19,8 @@
   
 
   ## License
-  Apache
+  This project is licensed under the Apache license.
+
 
   ## Contributing
   
@@ -28,4 +29,8 @@
   
   
   ## Questions
-  
+  If you have any questions, please reach me at: 
+
+  GitHub : [Avr99j](https://github.com/Avr99j)
+
+  Email: [avr99j@gmail.com](mailto: avr99j@gmail.com)
